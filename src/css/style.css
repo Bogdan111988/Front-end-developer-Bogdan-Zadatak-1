@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+#app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+  background-color: #e0e0e0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prozor {
+  background-color: #696993;
+  border-radius: 5px;
+  width: 400px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  text-align: center;
+}
+
+.amount {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.converted_amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.from_to {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.from {
+  width: 48%;
+  text-align: left;
+}
+
+.to {
+  width: 48%;
+  text-align: left;
+}
+
+select {
+  width: 100%;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
